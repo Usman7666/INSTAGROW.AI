@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: ProximaNovaRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../public/fonts/ProximaNova-Regular.otf') format("otf");
+}
+@font-face {
+    font-family: ProximaNovaBold;
+    src: url('../public/fonts/Proxima\ Nova\ Alt\ Bold.otf');
+}
+
+@import "tailwindcss";
+
+
+
+
+@theme{
+    --font-proximaNovaRegular : ProximaNovaRegular , system-ui;
+    --font-proximaNovaBold : ProximaNovaBold : system-ui;
+    --color-black1 : #060606;
+    --color-black2 : #2e2e2e;
+    --color-black3 : #575757;
+    --color-black4  : #010101;
+    --color-gray1 : #7b7b7b;
+    --color-gray2 : #d8d8d8;
+    --color-gray3 : #7b8895;
+    --color-gray4 : #f8f8f8;
+    --color-gray5 : #bfc5cc;
+    --color-gray6 : #e6e6e6;
+    --color-gray7 : #f7f9fa;
+    --color-gray8  : #d9d9d9;
+    --color-gray9 : #cfcfcf;
+    --color-pink1 : #ff4672;
+    --color-pink2 : #ffecf1;
+
+    --color-bordercolour : #eeeeee;
+    --color-gradientbg : linearGradient(to bottom, #fcfcfc, rgba(248, 248, 248, 0));
+    --shadow-boxshadow : 0 0 19px 8px rgba(234, 234, 234, 0.5);
+    --shadow-boxshadow2 : 0 0 19px 8px rgba(241, 241, 241, 0.75);
+    --shadow-boxshadow3 : 0px 2px 16px rgba(231, 231, 231, 0.5);
+    --font-HKGrotesk : "Hanken Grotesk", sans-serif;
+    --font-doto: Doto, system-ui;
+    --text-mdsm : 16px;
+    --text-17sm : 17px;
+    --text-15sm : 15px;
+    --text-10sm : 10px;
+    --text-13sm : 13px;
+    --text-26md : 26px;
+    --text-28mdlg : 28px;
+    --text-27lg : 27px;
+    --text-37lg : 37.4px;
+    --text-22md : 22px;
+    --text-9sm : 9px;
+    --text-40lg : 40px;
+    --text-32mdlg : 32px;
+    --text-xxs : 8px;
+
+    --breakpoint-xs: 375px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --breakpoint-2xl: 1300px;
+    --breakpoint-3xl: 1440px;
+    --breakpoint-4xl: 1600px;
+}
