@@ -1363,6 +1363,13 @@
       }
     }
   }
+  .hover\:bg-white {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-white);
+      }
+    }
+  }
   .hover\:text-pink1 {
     &:hover {
       @media (hover: hover) {
@@ -1374,6 +1381,14 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-white);
+      }
+    }
+  }
+  .hover\:shadow-boxshadow {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 0 0 19px 8px var(--tw-shadow-color, rgba(234, 234, 234, 0.5));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
       }
     }
   }
