@@ -77,16 +77,17 @@
     </style>
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
+
     <!-- Header Section -->
     <header
       id="main-header"
       class="sm:border-b border-gray2 lg:py-7 py-5 transition-all duration-500"
     >
       <nav class="max-w-[80rem] mx-auto w-full flex items-center xl:px-0 px-4">
-        <a href="#" class="lg:mr-[4.688rem]">
+        <a href="#" class="navitems lg:mr-[4.688rem]">
           <img
-            class="lg:max-w-[11.875rem] max-w-[7.5rem] h-auto"
+            class=" lg:max-w-[11.875rem] max-w-[7.5rem] h-auto"
             src="./images/logo.svg"
           />
         </a>
@@ -94,53 +95,53 @@
         <div class="flex w-full lg:justify-between justify-end items-center">
           <ul
             id="menu"
-            class="hidden lg:flex mr-auto lg:static h-full w-full lg:w-auto fixed inset-0 top-1/2 left-1/2 lg:bg-transparent flex flex-col lg:flex-row items-center justify-center lg:justify-start bg-white transform lg:translate-0 -translate-x-1/2 -translate-y-1/2 z-[99] transition-all duration-500"
+            class="hidden lg:flex mr-auto lg:static h-full w-full lg:w-auto fixed inset-0 top-1/2 left-1/2 lg:bg-none flex flex-col lg:flex-row items-center justify-center lg:justify-start bg-white transform lg:translate-0 -translate-x-1/2 -translate-y-1/2 z-[99] transition-all duration-500"
           >
             <a href="#" onclick="myFunction()">
               <img
-                class="w-5 absolute top-4 right-5 lg:hidden block cursor-pointer"
+                class="navitems w-5 absolute top-4 right-5 lg:hidden block cursor-pointer"
                 src="./images/close-menu.svg"
                 alt="menu"
               />
             </a>
             <li class="lg:px-3.5 px-[0.875rem] py-2 lg:py-0">
-              <a
-                class="lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 transition-all duration-500 ease-in-out"
+              <a 
+                class="navitems lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 hover:duration-500 hover:ease-in-out hover:transition-all  "
                 href="#"
                 >Features</a
               >
             </li>
             <li class="lg:px-3.5 px-[0.875rem] py-2 lg:py-0">
               <a
-                class="lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 transition-all duration-500 ease-in-out"
+                class="navitems lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1  hover:duration-500 hover:ease-in-out hover:transition-all"
                 href="#"
                 >FAQ</a
               >
             </li>
             <li class="lg:px-3.5 px-[0.875rem] py-2 lg:py-0">
               <a
-                class="lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 transition-all duration-500 ease-in-out"
+                class="navitems lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 hover:duration-500 hover:ease-in-out hover:transition-all"
                 href="#"
                 >Customer Success</a
               >
             </li>
             <li class="lg:px-3.5 px-[0.875rem] py-2 lg:py-0">
               <a
-                class="lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 transition-all duration-500 ease-in-out"
+                class="navitems lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 hover:duration-500 hover:ease-in-out hover:transition-all"
                 href="#"
                 >Pricing</a
               >
             </li>
             <li class="lg:px-3.5 px-[0.875rem] py-2 lg:py-0">
               <a
-                class="lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 transition-all duration-500 ease-in-out"
+                class="navitems lg:text-sm text-lg lg:pt-2 text-gray1 font-semibold font-HKGrotesk hover:text-pink1 hover:duration-500 hover:ease-in-out hover:transition-all"
                 href="#"
                 >Resources</a
               >
             </li>
             <li class="list-none lg:hidden block py-2 lg:py-0">
               <a
-                class="text-mdsm font-HKGrotesk text-black font-extrabold hover:text-pink1 transition-all duration-500 ease-in-out"
+                class="navitems text-mdsm font-HKGrotesk text-black font-extrabold hover:text-pink1 hover:duration-500 hover:ease-in-out hover:transition-all"
                 href="#"
               >
                 Log In</a
@@ -151,7 +152,7 @@
             <ul class="flex items-center">
               <li class="list-none lg:block hidden">
                 <a
-                  class="text-mdsm font-HKGrotesk text-black font-extrabold hover:text-pink1 transition-all duration-500 ease-in-out"
+                  class="navitems text-mdsm font-HKGrotesk text-black font-extrabold hover:text-pink1 hover:duration-500 hover:ease-in-out hover:transition-all"
                   href="#"
                 >
                   Log In</a
@@ -159,9 +160,9 @@
               </li>
               <li class="list-none">
                 <button
-                  class="lg:w-[8.5rem] w-[4.25rem] lg:h-[3.188rem] h-6 lg:text-mdsm text-xxs font-bold rounded-3xl hover:bg-white bg-pink1 hover:text-pink1 text-white font-HKGrotesk flex items-center justify-center lg:ml-4 mr-3 lg:mr-0 transition-all duration-500 ease-in-out cursor-pointer hover:shadow-boxshadow"
+                  class=" lg:w-[8.5rem] w-[4.25rem] lg:h-[3.188rem] h-6 lg:text-mdsm text-xxs font-bold rounded-3xl hover:bg-white bg-pink1 hover:text-pink1 text-white font-HKGrotesk flex items-center justify-center lg:ml-4 mr-3 lg:mr-0 transition-all duration-500 ease-in-out cursor-pointer hover:shadow-boxshadow"
                 >
-                  <a class="-mt-0.5" href="#"> Get Started </a>
+                  <a class=" -mt-0.5" href="#"> Get Started </a>
                 </button>
               </li>
               <button
@@ -187,13 +188,13 @@
         <div>
           <div class="text-center">
             <h1
-              class="xl:text-6xl lg:text-5xl md:text-[2.5rem] text-3xl leading-[1.17] sm:tracking-[-0.143rem] tracking-[-0.04rem] text-black font-HKGrotesk font-extrabold"
+              class="heading xl:text-6xl lg:text-5xl md:text-[2.5rem] text-3xl leading-[1.17] sm:tracking-[-0.143rem] tracking-[-0.04rem] text-black font-HKGrotesk font-extrabold"
             >
               Grow your Instagram <br />
               to new heights.
             </h1>
             <p
-              class="text-center sm:tracking-[-0.089rem] tracking-[-0.013rem] text-gray3 lg:text-xl sm:text-mdsm text-[0.625rem] font-HKGrotesk lg:max-w-[25rem] lg:h-12 sm:max-w-[18.75rem] max-w-[14.563rem] md:h-9 md:mt-[1.375rem] mx-auto md:mb-[3.438rem] sm:my-7 mt-2.5 mb-[1.125rem]"
+              class="heading text-center sm:tracking-[-0.089rem] tracking-[-0.013rem] text-gray3 lg:text-xl sm:text-mdsm text-[0.625rem] font-HKGrotesk lg:max-w-[25rem] lg:h-12 sm:max-w-[18.75rem] max-w-[14.563rem] md:h-9 md:mt-[1.375rem] mx-auto md:mb-[3.438rem] sm:my-7 mt-2.5 mb-[1.125rem]"
             >
               Get real followers, likes and comments using automated targeted
               marketing & the power of AI.
@@ -207,12 +208,12 @@
           </div>
           <div class="lg:mt-20 sm:mt-12 mt-7">
             <ul
-              class="flex flex-wrap sm:flex-nowrap items-baseline justify-center"
+              class=" flex flex-wrap sm:flex-nowrap items-baseline justify-center"
             >
               <li
                 class="lg:px-8 sm:px-5 sm:py-0 p-3 sm:w-fit w-1/2 flex items-center justify-center"
               >
-                <a class="transition-all duration-500 ease-in-out" href="#">
+                <a class="imageslist" href="#">
                   <img
                     class="sm:h-6 h-4"
                     src="./images/huffpost-logo.png"
@@ -223,7 +224,7 @@
               <li
                 class="lg:px-8 sm:px-5 sm:py-0 p-3 sm:w-fit w-1/2 flex items-center justify-center"
               >
-                <a class="transition-all duration-500 ease-in-out" href="#">
+                <a class="imageslist" href="#">
                   <img
                     class="sm:h-6 h-4"
                     src="./images/forbes-logo.png"
@@ -234,7 +235,7 @@
               <li
                 class="lg:px-8 sm:px-5 sm:py-0 p-3 sm:w-fit w-1/2 flex items-center justify-center"
               >
-                <a class="transition-all duration-500 ease-in-out" href="#">
+                <a class="imageslist" href="#">
                   <img
                     class="sm:h-6 h-4"
                     src="./images/techcrunch-logo.png"
@@ -245,7 +246,7 @@
               <li
                 class="lg:px-8 sm:px-5 sm:py-0 p-3 sm:w-fit w-1/2 flex items-center justify-center"
               >
-                <a class="transition-all duration-500 ease-in-out" href="#">
+                <a class="imageslist" href="#">
                   <img
                     class="sm:h-6 h-4"
                     src="./images/vanityfair-logo.png"
@@ -260,13 +261,13 @@
     </section>
 
     <!-- Growing Acc Section -->
-    <section class="sm:pb-[5.625rem] pb-8">
+    <section class=" sm:pb-[5.625rem] pb-8">
       <div
         class="xl:max-w-[71.25rem] lg:max-w-[60rem] max-w-[45rem] w-full mx-auto px-4"
       >
-        <div class="sm:mb-14 mb-8">
-          <img
-            class="max-w-full h-auto"
+        <div class=" sm:mb-14 mb-8">
+          <img 
+            class="image max-w-full h-auto"
             src="./images/growing-account-img.png"
             alt="Growing-image"
           />
@@ -280,9 +281,9 @@
             </h3>
           </div>
           <div class="sm:pl-5 pl-3.5">
-            <ul>
+            <ul id="listid">
               <li
-                class="md:text-lg sm:text-sm text-[0.563rem] sm:mb-5 mb-2.5 font-semibold sm:tracking-[-0.024rem] tracking-[-0.012rem] font-HKGrotesk text-gray3 flex items-center"
+                class=" md:text-lg sm:text-sm text-[0.563rem] sm:mb-5 mb-2.5 font-semibold sm:tracking-[-0.024rem] tracking-[-0.012rem] font-HKGrotesk text-gray3 flex items-center"
               >
                 <span
                   class="md:text-3xl sm:text-2xl text-[0.938rem] md:mr-4 mr-2.5 font-extrabold font-HKGrotesk tracking-[-0.04rem] text-pink1 inline-block"
@@ -292,7 +293,7 @@
                 Connect your Instagram account.
               </li>
               <li
-                class="md:text-lg sm:text-sm text-[0.563rem] sm:mb-5 mb-2.5 font-semibold sm:tracking-[-0.024rem] tracking-[-0.012rem] font-HKGrotesk text-gray3 flex items-center"
+                class=" md:text-lg sm:text-sm text-[0.563rem] sm:mb-5 mb-2.5 font-semibold sm:tracking-[-0.024rem] tracking-[-0.012rem] font-HKGrotesk text-gray3 flex items-center"
               >
                 <span
                   class="md:text-3xl sm:text-2xl text-[0.938rem] md:mr-4 mr-2.5 font-extrabold font-HKGrotesk tracking-[-0.04rem] text-pink1 inline-block"
@@ -302,7 +303,7 @@
                 Select your target audience.
               </li>
               <li
-                class="md:text-lg sm:text-sm text-[0.563rem] sm:mb-5 mb-2.5 font-semibold sm:tracking-[-0.024rem] tracking-[-0.012rem] font-HKGrotesk text-gray3 flex items-center"
+                class=" md:text-lg sm:text-sm text-[0.563rem] sm:mb-5 mb-2.5 font-semibold sm:tracking-[-0.024rem] tracking-[-0.012rem] font-HKGrotesk text-gray3 flex items-center"
               >
                 <span
                   class="md:text-3xl sm:text-2xl text-[0.938rem] md:mr-4 mr-2.5 font-extrabold font-HKGrotesk tracking-[-0.04rem] text-pink1 inline-block"
@@ -326,20 +327,20 @@
       >
         <div class="flex md:flex-row md:items-start md:justify-start flex-col">
           <div
-            class="3xl:-ml-8 3xl:pt-[4.25rem] xl:pt-10 md:pt-8 pt-0 md:px-4 flex flex-col md:items-start md:justify-start items-center justify-center"
+            class="precisecontent 3xl:-ml-8 3xl:pt-[4.25rem] xl:pt-10 md:pt-8 pt-0 md:px-4 flex flex-col md:items-start md:justify-start items-center justify-center"
           >
             <img
-              class="2xl:max-w-[3.688rem] sm:max-w-10 max-w-11 w-full h-auto"
+              class=" 2xl:max-w-[3.688rem] sm:max-w-10 max-w-11 w-full h-auto"
               src="./images/target-icon.png"
               alt="Icon"
             />
             <h3
-              class="font-HKGrotesk font-bold xl:text-5xl lg:text-4xl text-[2rem] sm:my-4 mt-6 mb-3.5 xl:mt-8 xl:mb-5 leading-[1.04] tracking-[-0.064rem] text-black1"
+              class=" font-HKGrotesk font-bold xl:text-5xl lg:text-4xl text-[2rem] sm:my-4 mt-6 mb-3.5 xl:mt-8 xl:mb-5 leading-[1.04] tracking-[-0.064rem] text-black1"
             >
               Precise Targeting
             </h3>
             <p
-              class="font-HKGrotesk md:text-start text-center font-semibold 2xl:text-xl xl:text-lg sm:text-mdsm text-[0.938rem] text-gray3 leading-normal sm:tracking-[-0.027rem] tracking-[-0.02rem] sm:max-w-full max-w-[15.938rem] my-0 mx-auto"
+              class=" font-HKGrotesk md:text-start text-center font-semibold 2xl:text-xl xl:text-lg sm:text-mdsm text-[0.938rem] text-gray3 leading-normal sm:tracking-[-0.027rem] tracking-[-0.02rem] sm:max-w-full max-w-[15.938rem] my-0 mx-auto"
             >
               Target your exact audience using power filters. Location,
               Interests, Gender, Demographic, Behavior, Age Range.
@@ -349,7 +350,7 @@
             class="max-w-[40.813rem] w-full xl:-mt-[3.188rem] xl:-mr-[3.75rem] xl:ml-3 lg:-mt-10 lg:ml-10 md:m-0 -mb-11 mt-2.5 sm:mt-0"
           >
             <img
-              class="max-w-full h-full md:min-w-[24.375rem]"
+              class="preciseimage max-w-full h-full md:min-w-[24.375rem]"
               src="./images/target-img.png"
               alt="Target Image"
             />
@@ -367,13 +368,13 @@
       >
         <div class="2xl:max-w-[43.625rem] max-w-full xl:-ml-[3.75rem] sm:px-4">
           <img
-            class="max-w-full h-auto"
+            class="analyticsimage max-w-full h-auto"
             src="./images/analytics-img.png"
             alt="Analytics-Image"
           />
         </div>
         <div
-          class="lg:pl-5 h-full flex flex-col justify-center md:justify-start sm:px-4 lg:min-w-[25rem] min-w-[18.75rem]"
+          class="analyticscontent lg:pl-5 h-full flex flex-col justify-center md:justify-start sm:px-4 lg:min-w-[25rem] min-w-[18.75rem]"
         >
           <img
             class="xl:max-w-[3.125rem] max-w-10 md:mx-0 mx-auto my-0 w-full"
@@ -402,7 +403,7 @@
       <div
         class="xl:max-w-[71.25rem] lg:max-w-[60rem] md:max-w-[45rem] max-w-full mx-auto xs:px-4 px-3"
       >
-        <div class="text-center">
+        <div class="Integratedcontent  text-center ">
           <h1
             class="md:text-5xl text-4xl tracking-[-0.064rem] text-black1 mb-[0.938rem] font-HKGrotesk font-bold"
           >
@@ -425,7 +426,7 @@
         class="mx-auto flex flex-col md:flex-row text-center md:text-left justify-between max-w-full md:max-w-[45rem] lg:max-w-[60rem] xl:max-w-[71.25rem]"
       >
         <div
-          class="pb-10 sm:pb-0 sm:px-[1rem] lg:pt-[0.625rem] xl:pt-[2rem] 2xl:pt-[3.75rem]"
+          class="Aicontent  pb-10 sm:pb-0 sm:px-[1rem] lg:pt-[0.625rem] xl:pt-[2rem] 2xl:pt-[3.75rem]"
         >
           <img
             src="./images/brain.svg"
@@ -460,11 +461,11 @@
           <img
             src="./images/optimized-img.png"
             alt="Optimized-image"
-            class="max-w-full h-auto"
+            class="Aiimage max-w-full h-auto"
           />
 
           <p
-            class="block md:hidden mt-5 mx-auto max-w-[18.75rem] sm:max-w-[25rem] xl:max-w-[31.4375rem] text-15sm xl:text-xl font-semibold font-HKGrotesk text-gray3 sm:leading-[1.5] tracking-[-0.02rem] md:tracking-[-0.026875rem]"
+            class="Aicontent block md:hidden mt-5 mx-auto max-w-[18.75rem] sm:max-w-[25rem] xl:max-w-[31.4375rem] text-15sm xl:text-xl font-semibold font-HKGrotesk text-gray3 sm:leading-[1.5] tracking-[-0.02rem] md:tracking-[-0.026875rem]"
           >
             Additionally, our system only performs lightweight
             “micro-interactions” such as story viewing, comment liking, and
@@ -481,7 +482,7 @@
       <div
         class="xl:max-w-[71.25rem] lg:max-w-[60rem] md:max-w-[45rem] max-w-full mx-auto px-4"
       >
-        <div class="sm:mb-20 mb-6 text-center">
+        <div class="successcontent sm:mb-20 mb-6 text-center">
           <img
             class="sm:max-w-[4.438rem] max-w-[3.313rem] w-full mx-auto"
             src="./images/percent-icon.png"
@@ -502,11 +503,11 @@
       </div>
 
       <div class="w-full px-4 mx-auto">
-        <div class="max-w-[75.25rem] w-full mx-auto">
-          <ul class="flex flex-wrap 2xl:-mx-8 lg:mx-5 sm:-mx-2.5 m-0">
+        <div class=" max-w-[75.25rem] w-full mx-auto">
+          <ul class=" flex flex-wrap 2xl:-mx-8 lg:mx-5 sm:-mx-2.5 m-0">
             <!-- Card 1 -->
             <li
-              class="md:w-1/3 sm:w-1/2 w-full 2xl:px-8 lg:px-5 md:py-0 sm:py-2.5 sm:px-2.5 pt-2.5 pb-5"
+              class="successcards md:w-1/3 sm:w-1/2 w-full 2xl:px-8 lg:px-5 md:py-0 sm:py-2.5 sm:px-2.5 pt-2.5 pb-5"
             >
               <div
                 class="rounded-2xl sm:max-w-full max-w-[17rem] mx-auto sm:mx-0 shadow-boxshadow p-3 border border-bordercolour bg-white"
@@ -581,7 +582,7 @@
 
             <!-- Card 2 -->
             <li
-              class="md:w-1/3 sm:w-1/2 w-full 2xl:px-8 lg:px-5 md:py-0 sm:py-2.5 sm:px-2.5 pt-2.5 pb-5"
+              class="successcards md:w-1/3 sm:w-1/2 w-full 2xl:px-8 lg:px-5 md:py-0 sm:py-2.5 sm:px-2.5 pt-2.5 pb-5"
             >
               <div
                 class="rounded-2xl sm:max-w-full max-w-[17rem] mx-auto sm:mx-0 shadow-boxshadow p-3 border border-bordercolour bg-white"
@@ -656,7 +657,7 @@
 
             <!-- Card 3 -->
             <li
-              class="md:w-1/3 sm:w-1/2 w-full 2xl:px-8 lg:px-5 md:py-0 sm:py-2.5 sm:px-2.5 pt-2.5 pb-5"
+              class="successcards md:w-1/3 sm:w-1/2 w-full 2xl:px-8 lg:px-5 md:py-0 sm:py-2.5 sm:px-2.5 pt-2.5 pb-5"
             >
               <div
                 class="rounded-2xl sm:max-w-full max-w-[17rem] mx-auto sm:mx-0 shadow-boxshadow p-3 border border-bordercolour bg-white"
@@ -734,11 +735,11 @@
     </section>
 
     <!-- Pricing-Section -->
-    <section class="md:pt-[76px] md:pb-10 sm:py-12 pt-12 pb-8">
+     <section class="md:pt-[76px] md:pb-10 sm:py-12 pt-12 pb-8">
       <div
         class="xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] max-w-full mx-auto"
       >
-        <div class="px-4">
+        <div class="px-4 successcontent">
           <h2
             class="text-4xl md:text-5xl text-center md:text-left font-bold font-HKGrotesk text-black1 tracking-[-0.064375rem] mb-[0.625rem] md:mb-4"
           >
@@ -753,7 +754,7 @@
 
         <div class="mt-9">
           <div class="flex flex-wrap items-end">
-            <div class="md:max-w-1/3 sm:max-w-1/2 max-w-full w-full px-4">
+            <div class="pricingcard1 md:max-w-1/3 sm:max-w-1/2 max-w-full w-full px-4">
               <div
                 class="rounded-lg md:max-w-full max-w-[264px] w-full md:my-0 md:mx-0 my-4 mx-auto shadow-boxshadow2 border-[1px] border-gray6 bg-white p-0.5 cursor-pointer"
               >
@@ -848,7 +849,7 @@
                 </div>
               </div>
             </div>
-            <div class="md:max-w-1/3 sm:max-w-1/2 max-w-full w-full px-4">
+            <div class="pricingcard2 md:max-w-1/3 sm:max-w-1/2 max-w-full w-full px-4">
               <div
                 class="rounded-lg md:max-w-full max-w-[264px] my-4 md:my-0 mx-auto md:mx-0 bg-pink2 shadow-boxshadow2 border-[1px] border-gray6 md:p-0.5 p-0 cursor-pointer"
               >
@@ -951,7 +952,7 @@
                 </div>
               </div>
             </div>
-            <div class="md:max-w-1/3 sm:max-w-1/2 max-w-full w-full px-4">
+            <div class="pricingcard3 md:max-w-1/3 sm:max-w-1/2 max-w-full w-full px-4">
               <div
                 class="rounded-lg md:max-w-full max-w-[264px] w-full md:my-0 md:mx-0 my-4 mx-auto shadow-boxshadow2 border-[1px] border-gray6 bg-white p-0.5 cursor-pointer"
               >
@@ -1053,7 +1054,7 @@
 
         <div class="md:mt-12 mt-7">
           <div class="flex flex-wrap">
-            <div class="sm:block hidden md:max-w-1/3 max-w-1/2 w-full px-4">
+            <div class="pricingcard1 sm:block hidden md:max-w-1/3 max-w-1/2 w-full px-4">
               <div class="relative md:pt-1.5 md:pb-1 py-3.5">
                 <ul
                   class="after:absolute after:content-[''] after:-right-4 after:top-0 after:transform after:translate-(0 , -50%) after:bg-gray6 after:w-0.5 after:h-11/12"
@@ -1101,7 +1102,7 @@
                 </ul>
               </div>
             </div>
-            <div class="sm:block hidden md:max-w-1/3 max-w-1/2 w-full px-4">
+            <div class="pricingcard2 sm:block hidden md:max-w-1/3 max-w-1/2 w-full px-4">
               <div class="relative md:pt-1.5 md:pb-1 md:pl-6 py-3.5">
                 <ul
                   class="after:absolute after:content-[''] after:-right-4 after:top-0 after:transform after:translate-(0 , -50%) after:bg-gray6 after:w-0.5 after:h-11/12"
@@ -1149,7 +1150,7 @@
                 </ul>
               </div>
             </div>
-            <div class="sm:block hidden md:max-w-1/3 max-w-1/2 w-full px-4">
+            <div class="pricingcard3 sm:block hidden md:max-w-1/3 max-w-1/2 w-full px-4">
               <div class="relative md:pt-1.5 md:pb-1 md:pl-6 py-3.5">
                 <ul>
                   <li
@@ -1206,7 +1207,7 @@
           </h3>
           <div class="flex flex-wrap">
             <div class="md:max-w-1/2 max-w-full w-full sm:px-4 px-5">
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1223,7 +1224,7 @@
                   reccomend Pro.
                 </p>
               </div>
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1240,7 +1241,7 @@
                   compliance with their limits.
                 </p>
               </div>
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1256,7 +1257,7 @@
                   hours notice.
                 </p>
               </div>
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1274,7 +1275,7 @@
               </div>
             </div>
             <div class="md:max-w-1/2 max-w-full w-full sm:px-4 px-5">
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent2 sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1290,7 +1291,7 @@
                   target audience, drive traffic to your site and grow.
                 </p>
               </div>
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent2 sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1306,7 +1307,7 @@
                   refund or cancellation of your account.
                 </p>
               </div>
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent2 sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1323,7 +1324,7 @@
                   grow.
                 </p>
               </div>
-              <div class="sm:mb-6 mb-7">
+              <div class="faqcontent2 sm:mb-6 mb-7">
                 <h4
                   class="md:text-22md sm:text-lg text-mdsm sm:tracking-[-0.14px] tracking-[-0.1px] text-black4 font-HKGrotesk font-semibold sm:mb-5 mb-4"
                 >
@@ -1341,7 +1342,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
     <!-- Footer -->
     <footer class="sm:px-4 px-[1.25rem]">
@@ -1353,7 +1354,7 @@
             <div class="md:mb-0 mb-[0.875rem]">
               <a class="transition-all duration-500 ease-in-out" href="#">
                 <img
-                  class="md:max-w-full max-w-[7.1875rem] h-auto"
+                  class=" md:max-w-full max-w-[7.1875rem] h-auto"
                   src="./images/logo.svg"
                   alt="logo"
                 />
@@ -1369,7 +1370,7 @@
               >
                 <a
                   href="#"
-                  class="md:text-mdsm text-xs tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal transition-all duration-500 ease-in-out"
+                  class=" md:text-mdsm text-xs tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal hover:transition-all hover:duration-500 hover:ease-in-out"
                 >
                   Contact Us
                 </a>
@@ -1379,7 +1380,7 @@
               >
                 <a
                   href="#"
-                  class="md:text-mdsm text-xs tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal transition-all duration-500 ease-in-out"
+                  class=" md:text-mdsm text-xs tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal hover:transition-all hover:duration-500 hover:ease-in-out"
                 >
                   Privacy Policy
                 </a>
@@ -1389,7 +1390,7 @@
               >
                 <a
                   href="#"
-                  class="md:text-mdsm text-xs tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal transition-all duration-500 ease-in-out"
+                  class=" md:text-mdsm text-xs tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal hover:transition-all hover:duration-500 hover:ease-in-out"
                 >
                   Terms and Conditions
                 </a>
@@ -1397,7 +1398,7 @@
               <li class="lg:ml-7 md:ml-[0.875rem]">
                 <a
                   href="#"
-                  class="tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal transition-all duration-500 ease-in-out"
+                  class=" tracking-[0.020625rem] hover:text-pink1 text-black font-HKGrotesk font-normal hover:transition-all hover:duration-500 hover:ease-in-out"
                 >
                   <img
                     class="md:max-w-[2.25rem] max-w-[3.125rem] w-full h-auto absolute md:static sm:-top-[2.5rem] -top-[2rem] right-0"
@@ -1413,7 +1414,11 @@
     </footer>
   </body>
 
-  <script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+   <script>
     function myFunction() {
       const element = document.getElementById("menu");
       element.classList.toggle("hidden");
@@ -1457,5 +1462,5 @@
         );
       }
     });
-  </script>
+  </script> 
 </html>

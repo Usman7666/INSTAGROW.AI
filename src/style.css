@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: ProximaNovaBold;
-    src: url('../public/fonts/Proxima\ Nova\ Alt\ Bold.otf');
+    src: url('../public/fonts/Proxima\ Nova\ Alt\ Bold.otf') format("otf");
 }
 
 @import "tailwindcss";
