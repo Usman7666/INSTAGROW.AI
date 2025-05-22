@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scale: 0.2,
     scrollTrigger: {
       trigger: ".heading",
-      start: "top 70%",
+      start: "top 90%",
       scroller: "body",
        
     },
@@ -52,7 +53,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".image",
       scroller: "body",
-      start: "top 70%",
+      start: "top 90%",
     },
   });
 
@@ -63,7 +64,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".preciseimage",
       scroller: "body",
-      start: "top 80%",
+      start: "top 90%",
     },
   });
 
@@ -74,7 +75,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".precisecontent",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -85,7 +86,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".analyticsimage",
       scroller: "body",
-      start: "top 80%",
+      start: "top 90%",
     },
   });
 
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".analyticscontent",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -107,7 +108,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".Integratedcontent",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -118,7 +119,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".Aiimage",
       scroller: "body",
-      start: "top 80%",
+      start: "top 90%",
     },
   });
 
@@ -129,7 +130,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".Aicontent",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -140,7 +141,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".successcontent",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -152,7 +153,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".successcards",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -163,7 +164,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".pricingcard3",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -174,7 +175,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".pricingcard1",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -186,7 +187,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".pricingcard2",
       scroller: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 
@@ -198,7 +199,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".faqcontent",
       scroll: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
   gsap.from(".faqcontent2", {
@@ -209,7 +210,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollTrigger: {
       trigger: ".faqcontent2",
       scroll: "body",
-      start: "top 85%",
+      start: "top 90%",
     },
   });
 });
