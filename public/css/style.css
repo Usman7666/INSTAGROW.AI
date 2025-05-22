@@ -1510,6 +1510,11 @@
       overflow: auto;
     }
   }
+  .sm\:overflow-x-hidden {
+    @media (width >= 576px) {
+      overflow-x: hidden;
+    }
+  }
   .sm\:border-b {
     @media (width >= 576px) {
       border-bottom-style: var(--tw-border-style);

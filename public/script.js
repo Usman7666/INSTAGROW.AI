@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
       trigger: ".imageslist",
       start: "top 90%",
       scroller: "body",
+     
     },
   });
 
@@ -27,8 +28,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scale: 0.2,
     scrollTrigger: {
       trigger: ".heading",
-      start: "top 80%",
+      start: "top 70%",
       scroller: "body",
+       
     },
   });
 
